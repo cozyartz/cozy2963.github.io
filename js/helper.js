@@ -24,11 +24,11 @@ var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<p>Major: %data%</p>';
 
 var HTMLonlineClasses = '<h2 class="edHead">Online Classes</h2><hr class="here">';
-var HTMLonlineTitle = '<p class="online-school">%data%</p>';
+var HTMLonlineTitle = '<p class="class-title">%data%</p>';
 var HTMLonlineSchool = '<p class="online-school">%data%</p>';
 var HTMLonlineDates = '<div class="date-text">%data%</div><hr class="hrClasses">';
 var HTMLonlineSkills = '<p>%data%</p>';
-var HTMLonlineURL = '<a href="#">%data%</a>';
+var HTMLonlineURL = '<a class="online-link" href="#">%data%</a>';
 
 
 var HTMLworkStart = '<div class="work-entry"></div>';
