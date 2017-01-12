@@ -84,7 +84,7 @@ var projects = {
       "title": "JS Meme Maker",
       "dates": "2016",
       "description": "Meme Maker made with JavaScript",
-      "images": ["images/meme.png"]
+      "images": ["images/meme2.png"]
     },
     {
         "title": "Portfolio Site",

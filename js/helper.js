@@ -41,7 +41,7 @@ var HTMLworkDescription = '<p>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="#">%data%</a>';
-var HTMLprojectDates = '<div class="date-text">%data%</div>';
+var HTMLprojectDates = '<div class="project-date">%data%</div>';
 var HTMLprojectDescription = '<p>%data%</p>';
 var HTMLprojectImage = '<img src="%data%">';
 

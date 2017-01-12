@@ -18,8 +18,7 @@ h6 {
 }
 
 .education-entry,
-.work-entry,
-.project-entry {
+.work-entry {
   padding-top: 10px;
 }
 
@@ -201,6 +200,9 @@ a {
 
 #projects {
   text-align: center;
+}
+.project-entry {
+  display: inline-table;
 }
 
 .flex-box {
