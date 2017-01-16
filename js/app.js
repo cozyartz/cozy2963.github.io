@@ -23,3 +23,4 @@ $("a:contains('udacity')").attr('href', 'https://www.udacity.com/course/front-en
 $("a:contains('ColtSteel')").attr('href', 'https://www.udemy.com/the-web-developer-bootcamp/');
 $("a:contains('RobeenDey')").attr('href', 'https://www.udemy.com/job-ready-web-developer/');
 $("a:contains('Portfolio Site')").attr('href', 'http://www.elearnitall.com');
+$("a:contains('Drum Kit')").attr('href', 'http://www.cozybox.xyz');
