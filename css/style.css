@@ -146,6 +146,13 @@ a {
   text-decoration: none;
   margin: 20px 0px 0px 20px;
 }
+.project-entry a {
+  margin-left: auto;
+}
+
+.project-entry p{
+  padding-left: 0;
+}
 
 .employer {
   float: none;

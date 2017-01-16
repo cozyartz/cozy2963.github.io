@@ -97,6 +97,12 @@ var projects = {
         "dates": "2015",
         "description": "Simple To-Do list code-along with Colt Steele",
         "images": ["images/todo.png"]
+    },
+    {
+        "title": "JavaScript Drum Kit",
+        "dates": "2017",
+        "description": "Play the drums on your computer with JS",
+        "images": ["images/drum.png"]
     }]
 };
 
