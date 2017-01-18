@@ -23,6 +23,7 @@
     "grunt-contrib-htmlmin": "^2.1.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.0.0",
+    "grunt-imageoptim": "^1.4.2",
     "jshint": "^2.9.4",
     "load-grunt-tasks": "^3.5.2"
   }

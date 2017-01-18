@@ -497,7 +497,7 @@ $("a:contains('To-Do List')").attr('href', 'http://www.examplework.xyz');
 $("a:contains('Lanier Brugh')").attr('href', 'http://www.brughtrucking.com/');
 $("a:contains('Apple')").attr('href', 'http://www.apple.com/');
 $("a:contains('codeschool')").attr('href', 'http://www.codeschool.com/');
-$("a:contains('udacity')").attr('href', 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001');
+$("a:contains('udacity')").attr('href', 'https://profiles.udacity.com/u/andreacozartlundin');
 $("a:contains('ColtSteel')").attr('href', 'https://www.udemy.com/the-web-developer-bootcamp/');
 $("a:contains('RobeenDey')").attr('href', 'https://www.udemy.com/job-ready-web-developer/');
 $("a:contains('Portfolio Site')").attr('href', 'http://www.elearnitall.com');
