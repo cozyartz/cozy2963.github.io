@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         collapseWhitespace: true
       },
       files: {                                   // Dictionary of files
-        'dist/index.html': 'index.html',     // 'destination': 'source'
+        'dist/index.html': 'start.html',     // 'destination': 'source'
       }
     }
   },
@@ -44,56 +44,6 @@ module.exports = function(grunt) {
 
     }]
   }
-},
-responsive_images: {
-  dev: {
-    options: {
-      engine: 'im',
-      sizes: [{
-        width: 1200,
-        suffix: '_large',
-        quality: 50
-      }]
-    },
-
-    /*
-    You don't need to change this part if you don't change
-    the directory structure.
-    */
-    files: [{
-      expand: true,
-      src: ['*.{gif,jpg,png}'],
-      cwd: 'images_src/',
-      dest: 'images/'
-    }]
-  }
-},
-
-/* Clear out the images directory if it exists */
-clean: {
-  dev: {
-    src: ['images'],
-  },
-},
-
-/* Generate the images directory if it is missing */
-mkdir: {
-  dev: {
-    options: {
-      create: ['images']
-    },
-  },
-},
-
-/* Copy the "fixed" images that don't go through processing into the images/directory */
-copy: {
-  dev: {
-    files: [{
-      expand: true,
-      src: 'images_src/fixed/*.{gif,jpg,png}',
-      dest: 'images/'
-    }]
-  },
 },
 
 imageoptim: {
