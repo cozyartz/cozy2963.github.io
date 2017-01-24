@@ -17,10 +17,10 @@ h6 {
   overflow: auto;
 }
 
-.education-entry,
+/*.education-entry,
 .work-entry {
-  padding-top: 10px;
-}
+  padding-top: 2px 1%;
+}*/
 
 h1 {
   font-size: 30px;
@@ -34,6 +34,8 @@ h2 {
   font-size: 24px;
   color: #484848;
   line-height: 29px;
+  margin: 10px;
+  text-align: center;
 }
 
 h3 {
@@ -43,20 +45,12 @@ h3 {
   line-height: 22px;
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #4a4a4a;
-  line-height: 17px;
-}
-
-h2,
+/*h2,
 h3,
 h4,
 h5 {
-  padding:5px 5%;
-
-}
+  padding:1px 1%;
+}*/
 
 .role {
   color: white;
@@ -68,6 +62,10 @@ h5 {
   padding: 1px;
   font-size: 18px;
   margin-left: 10px;
+}
+
+.flex-item a {
+  margin-left: 0;
 }
 .date-text {
   font-style: italic;
@@ -156,6 +154,7 @@ a {
 
 .employer {
   float: none;
+  margin: 5px;
 }
 
 /*.welcome-message {
@@ -178,7 +177,7 @@ a {
   margin-top: 0;
 }
 
-.orange-text {
+.fa {
   color: #9fbf34;
 }
 

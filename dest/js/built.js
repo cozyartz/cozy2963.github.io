@@ -3,12 +3,12 @@ var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span class="role">%data%</span><hr>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="flex-item"><span class="orange-text"><i class="fa fa-phone-square" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="orange-text"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="orange-text"><i class="fa fa-twitter" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="orange-text"><i class="fa fa-github-alt" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
+var HTMLmobile = '<li class="flex-item"><i class="fa fa-phone-square" aria-hidden="true"></i><span class="white-text">%data%</span></li>';
+var HTMLemail = '<li class="flex-item"><i class="fa fa-envelope" aria-hidden="true"></i><a class="email" href="#"><span class="white-text">%data%</span></li>';
+var HTMLtwitter = '<li class="flex-item"><i class="fa fa-twitter" aria-hidden="true"></i><a class="twitter" href="#"><span class="white-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><i class="fa fa-github-alt" aria-hidden="true"></i><a class="github" href="#"><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="orange-text"><i class="fa fa-globe" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
+var HTMLlocation = '<li class="flex-item"><i class="fa fa-globe" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
@@ -251,7 +251,7 @@ map.fitBounds(mapBounds);
     "skills": [
         "HTML", "CSS", "JavaScript", "WordPress", "E-commerce", "Computer Hardware"
     ],
-    "biopic": "images/cozy1.jpg"
+    "biopic": "images/rockstar.png"
 };
 var education = {
     "schools": [{
@@ -304,7 +304,7 @@ var work = {
         "dates": "2013 - 2016",
         "description": "Hauled US mail with 53' trailer and Day-cab"
     }, {
-        "employer": "Ruco Transport, LLC",
+        "employer": "Ruco Transport",
         "title": "Class A CDL Driver / Owner",
         "location": "Wayne, MI",
         "dates": "2005 - 2013",
@@ -502,3 +502,6 @@ $("a:contains('ColtSteel')").attr('href', 'https://www.udemy.com/the-web-develop
 $("a:contains('RobeenDey')").attr('href', 'https://www.udemy.com/job-ready-web-developer/');
 $("a:contains('Portfolio Site')").attr('href', 'http://www.elearnitall.com');
 $("a:contains('Drum Kit')").attr('href', 'http://www.cozybox.xyz');
+$('.github').attr('href', 'http://www.github.com/cozy2963');
+$('.twitter').attr('href', 'https://twitter.com/cozy2963');
+$('.email').attr('href', 'mailto:cozy2963@gmail.com');

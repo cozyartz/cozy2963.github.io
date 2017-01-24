@@ -12,7 +12,7 @@ var bio = {
     "skills": [
         "HTML", "CSS", "JavaScript", "WordPress", "E-commerce", "Computer Hardware"
     ],
-    "biopic": "images/cozy1.jpg"
+    "biopic": "images/rockstar.png"
 };
 var education = {
     "schools": [{
@@ -65,7 +65,7 @@ var work = {
         "dates": "2013 - 2016",
         "description": "Hauled US mail with 53' trailer and Day-cab"
     }, {
-        "employer": "Ruco Transport, LLC",
+        "employer": "Ruco Transport",
         "title": "Class A CDL Driver / Owner",
         "location": "Wayne, MI",
         "dates": "2005 - 2013",

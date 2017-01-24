@@ -3,12 +3,12 @@ var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span class="role">%data%</span><hr>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="flex-item"><span class="orange-text"><i class="fa fa-phone-square" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="orange-text"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="orange-text"><i class="fa fa-twitter" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="orange-text"><i class="fa fa-github-alt" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
+var HTMLmobile = '<li class="flex-item"><i class="fa fa-phone-square" aria-hidden="true"></i><span class="white-text">%data%</span></li>';
+var HTMLemail = '<li class="flex-item"><i class="fa fa-envelope" aria-hidden="true"></i><a class="email" href="#"><span class="white-text">%data%</span></li>';
+var HTMLtwitter = '<li class="flex-item"><i class="fa fa-twitter" aria-hidden="true"></i><a class="twitter" href="#"><span class="white-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><i class="fa fa-github-alt" aria-hidden="true"></i><a class="github" href="#"><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="orange-text"><i class="fa fa-globe" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
+var HTMLlocation = '<li class="flex-item"><i class="fa fa-globe" aria-hidden="true"></i></span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';

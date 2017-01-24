@@ -24,3 +24,6 @@ $("a:contains('ColtSteel')").attr('href', 'https://www.udemy.com/the-web-develop
 $("a:contains('RobeenDey')").attr('href', 'https://www.udemy.com/job-ready-web-developer/');
 $("a:contains('Portfolio Site')").attr('href', 'http://www.elearnitall.com');
 $("a:contains('Drum Kit')").attr('href', 'http://www.cozybox.xyz');
+$('.github').attr('href', 'http://www.github.com/cozy2963');
+$('.twitter').attr('href', 'https://twitter.com/cozy2963');
+$('.email').attr('href', 'mailto:cozy2963@gmail.com');

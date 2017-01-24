@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         collapseWhitespace: true
       },
       files: {                                   // Dictionary of files
-        'dist/index.html': 'start.html',     // 'destination': 'source'
+        'dist/index.html': 'index.html',     // 'destination': 'source'
       }
     }
   },
@@ -64,9 +64,6 @@ grunt.registerTask('default', [
   'concat',
   'uglify',
   'cssmin',
-  'clean',
-  'mkdir',
-  'copy',
   'responsive_images',
   'imageoptim'
 ]);
