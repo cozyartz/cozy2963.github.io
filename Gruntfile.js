@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         collapseWhitespace: true
       },
       files: {                                   // Dictionary of files
-        'dist/index.html': 'index.html',     // 'destination': 'source'
+        'dest/index.html': 'start.html',     // 'destination': 'source'
       }
     }
   },
